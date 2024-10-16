@@ -33,11 +33,15 @@ img {
 }
 
 .visually-hidden {
-    margin: -1px;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .section-title {
@@ -58,7 +62,7 @@ img {
 /*-------HEADER-------*/
 
 .header {
-    padding: 24px 0;
+    padding: 24px 0 24px;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -252,7 +256,7 @@ img {
 }
 
 .team-div {
-    padding: 32px 0
+    padding: 32px 0;
 }
 
 .team-item-image {
@@ -277,9 +281,6 @@ font-weight: 500;
         color: #434455;
 }
 
-.team-div {
-    padding: 32px 16px;
-}
 /*-------OUR PORTFOLIO-------*/
 
 .portfolio {
@@ -334,8 +335,7 @@ border-top: none;
 
 .footer {
     background-color: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0 100px;
     padding-left: 156px;
 }
 
