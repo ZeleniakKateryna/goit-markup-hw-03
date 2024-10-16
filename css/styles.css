@@ -34,6 +34,7 @@ img {
 
 .visually-hidden {
     margin: -1px;
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -59,7 +60,7 @@ img {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
-    padding: 24px 0px 24px;
+padding: 24px 0px 24px;
 }
 
 .header-navigation {
@@ -199,14 +200,6 @@ img {
 .advatages {
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.visually-hidden {
-    margin: -1px;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .advatages-list {
